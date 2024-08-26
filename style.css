@@ -36,6 +36,24 @@ menu p {
 menu h3 {
   text-align: right;
 }
+/* hero section */
+.hero-section img {
+  width: 70%;
+  border: 1px solid black;
+}
+.image-section {
+  display: flex;
+  justify-content: center;
+}
+.content-section {
+  padding: 25px;
+}
+footer {
+  background-color: gray;
+  height: 2rem;
+  text-align: center;
+  padding: 5px;
+}
 @media (max-width: 900px) {
   menu {
     display: block;
@@ -52,6 +70,9 @@ menu h3 {
   }
   .items-list h3 {
     font-size: medium;
+  }
+  footer {
+    height: 3rem;
   }
 }
 @media (max-width: 600px) {
